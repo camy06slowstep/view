@@ -15,7 +15,7 @@
     align-items: center;
     color: white;
     margin-top: 0;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(111, 110, 110);
     /* margin-top: 0; */
     /* z-index: 1; */
     font-size: 1.1em;
@@ -84,7 +84,7 @@
     width: 200px;
     margin-left: 20px;
     font-size: 1.1em;
-    border-radius: 3px;
+    border-radius: 7px;
 }
 
 .alpha .btn1{
@@ -101,20 +101,28 @@
 
 .container{
     text-align: center;
+    position: relative;
     border: 20px solid white;
     box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.8);
-    width: 105vh;
+    width: 100vh;
     height: 100%;
+    background-color: white;
+    border-radius: 7px;
     margin-left: 23%;
+    top: -150px;
+    left: 50px;
 }
 
-.container img{
-    width: 100vh;
-    height: 300px;
+.imge2 img{
+    width: 104vh;
+    margin-left: 25.3%;
+    position: sticky;
+    margin-top: -150px;
+    height: 250px;
 }
 
 .container .p1{
-    margin: 70px;
+    margin: 50px;
     font-size: 1.5em;
 }
 
@@ -123,11 +131,14 @@
 }
 
 .container hr{
-    color: gray;
+    color: rgb(191, 182, 182);
     font-weight: bold;
     width: 50%;
     margin-left: 25%;
 }
+
+
+
 
 .iconcontent img{
     height: 100px;
@@ -138,9 +149,10 @@
 
 .iconcontent{
     text-align: center;
+    color: rgb(55, 53, 53);
     margin: 40px;
-    margin-left: 23%;
-    width: 106vh;
+    margin-left: 25%;
+    width: 100vh;
     height: 100%;
     border: 20px solid white;
     box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.8);
@@ -162,22 +174,27 @@
 .child1{
     grid-area: child1;
     border-left: 1px solid black;
+    border-left-color:rgba(127, 122, 122, 0.716) ;
 }
 
 .child2{
     grid-area: child2;
     border-top: 1px solid black;
+    border-top-color:rgba(127, 122, 122, 0.716) ;
 }
 
 .child3{
     grid-area: child3;
     border-left: 1px solid black;
     border-top: 1px solid black;
+    border-left-color:rgba(127, 122, 122, 0.716) ;
+    border-top-color:rgba(127, 122, 122, 0.716) ;
 }   
 
 .iconcontent h2{
    padding: 20px;
    font-size: 2em;
+   color: rgb(38, 36, 36);
 }
 
 .iconcontent p{
@@ -187,13 +204,14 @@
 
 .banniere{
     text-align: center;
+    color: rgb(74, 68, 68);
     display: flex;
     width: 90vh;
-    margin-left: 23%;
+    margin-left: 25%;
 }
 
 .banniere h2{
-    margin: 30px;
+    margin: 15px;
     font-size: 2em;
 }
 
@@ -213,8 +231,8 @@
     height: 40px;
     font-size: 1.2em;
     background-color: transparent;
-    border-radius: 3px;
-    margin: 39px;
+    border-radius: 7px;
+    margin: 25px;
 }
 
 .banniere img{
@@ -224,29 +242,29 @@
 
 .ending{
     text-align: center;
-    margin-top: 70px;
-    background-color: orange;
+    color: rgb(72, 67, 67);
+    margin-top: 60px;
+    background-color: rgba(237, 158, 130, 0.581);
 }
 
 .ending h1{
     padding-top: 50px;
     font-size: 2em;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .ending h3{
-    margin: 40px;
+    margin: 30px;
 }
 
 .ending .inputText{
     height: 40px;
     font-size: 1.2em;
     text-align: center;
-    color: white;
-    border-radius: 4px;
+    border-radius: 7px;
     border: none;
-    background-color: rgb(246, 219, 168);
-    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin: 15px;
 }
 
 .ending .btn3{
@@ -257,7 +275,7 @@
     background-color: white;
     font-size: 1.2em;
     border: none;
-    border-radius: 4px;
+    border-radius: 7px;
     margin: 60px;
     margin-left: 15px;
 }
@@ -266,7 +284,7 @@ footer{
     text-align: center;
     padding: 0;
     margin: 0;
-    background-color: beige;
+    background-color: rgba(231, 231, 231, 0.734);
     height: 100%;
     color: gray;
 }
